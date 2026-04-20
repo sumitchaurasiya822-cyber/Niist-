@@ -1,8 +1,8 @@
 const students = [
   {name:"sumit",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
   {name:"Nikhil Dubey",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
-  {name:"Jay Srivastav ",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
-  {name:"Dhananjay Srivastav ",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
+  {name:"Jay Srivastav",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
+  {name:"Dhananjay Srivastav",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
 ];
 
 let mode = localStorage.getItem("mode");
