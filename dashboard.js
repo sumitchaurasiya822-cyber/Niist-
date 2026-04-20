@@ -1,32 +1,32 @@
 const students = [
-  {name:"Sumi Kuamar Chaurasiya",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
-  {name:"Nikhil Dubey",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
-  {name:"Jay Srivastav",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
-  {name:"Dhananjay Srivastav",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
-  {name:"Harnarayan Dwivedi",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
-  {name:"Gyanedra Singh",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
-  {name:"Bhakar Dwivedi",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
-  {name:"Hemant Kushwah",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
-{name:"Jitendra Chouhan",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
-  {name:"Sanjan Patle",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
-  {name:"Raunak Dubey",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
-  {name:"Anamika Verma",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
-  {name:"Jyoti Dubey",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
-  {name:"Muskan Lodhi",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
-  {name:"Surbhi Lodhi",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
-  {name:"Suhani Yaduwanshi",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
-  {name:"Gaurav Kushwaha",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
-  {name:"Viakash Kumar Baudh",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
-  {name:"Khushi Roi",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
-  {name:"Sakshi Bisen",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
-  {name:"Sakshi Kumari",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
-  {name:"Poonam Vaishy",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
-  {name:"Harshita Singh",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
-  {name:"Jyotika Singh",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}. 
-  {name:"Rama Kushwaha",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
-  {name:"Swati kuamari",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
-  {name:"Monika Kashyap",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
-  {name:"Diksha Paradhi",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
+  {name:"sumit kumar chaurasiya",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
+  {name:"nikhil dubey",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
+  {name:"jay srivastav",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
+  {name:"dhananjay srivastav",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
+  {name:"harinarayan dwivedi",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
+  {name:"gyanedra singh",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
+  {name:"bhakar dwivedi",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
+  {name:"hemant kushwah",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
+{name:"jitendra chouhan",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
+  {name:"sanjan patle",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
+  {name:"raunak dubey",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
+  {name:"anamika verma",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
+  {name:"jyoti dubey",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
+  {name:"muskan lodhi",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
+  {name:"surbhi lodhi",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
+  {name:"suhani yaduwanshi",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
+  {name:"gaurav kushwaha",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
+  {name:"viakash kumar baudh",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
+  {name:"khushi roi",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
+  {name:"sakshi bisen",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
+  {name:"sakshi kumari",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
+  {name:"poonam vaishy",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
+  {name:"harshita singh",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
+  {name:"jyotika singh",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}. 
+  {name:"rama kushwaha",photo:"https://via.placeholder.com/300",class:"CSE",roll:77},
+  {name:"swati kumari",photo:"https://via.placeholder.com/300",class:"CSE",roll:41},
+  {name:"monika kashyap",photo:"https://via.placeholder.com/300",class:"CSE",roll:3},
+  {name:"diksha paradhi",photo:"https://via.placeholder.com/300",class:"CSE",roll:4}
 ];
 
 let mode = localStorage.getItem("mode");
