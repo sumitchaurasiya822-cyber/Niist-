@@ -1,0 +1,114 @@
+/* RESET */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+/* BACKGROUND */
+body{
+  height:100vh;
+  background:linear-gradient(135deg,#141e30,#243b55);
+  color:white;
+}
+
+/* CENTER */
+.center-box{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+/* GLASS UI */
+.glass{
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(15px);
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* LOGIN BOX */
+.login-box{
+  width:320px;
+  padding:30px;
+  text-align:center;
+  animation:fade 0.8s ease;
+}
+
+/* INPUT */
+input{
+  width:100%;
+  padding:12px;
+  margin:15px 0;
+  border:none;
+  border-radius:12px;
+  background:rgba(255,255,255,0.1);
+  color:white;
+  outline:none;
+}
+
+/* BUTTON */
+button{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:12px;
+  background:linear-gradient(45deg,#ff416c,#ff4b2b);
+  color:white;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:active{
+  transform:scale(0.95);
+}
+
+/* DASHBOARD */
+.header{
+  padding:15px;
+  text-align:center;
+  font-size:20px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+}
+
+/* GRID */
+#output{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:15px;
+  padding:15px;
+}
+
+/* CARD */
+.card{
+  padding:10px;
+  border-radius:18px;
+  text-align:center;
+  transition:0.3s;
+}
+
+.card img{
+  width:100%;
+  border-radius:12px;
+}
+
+/* BIG CARD */
+.big{
+  grid-column:1/-1;
+  max-width:320px;
+  margin:auto;
+  box-shadow:0 0 20px #ff4b2b;
+}
+
+/* ANIMATION */
+.fade{
+  animation:fade 0.5s ease;
+}
+
+@keyframes fade{
+  from{opacity:0; transform:translateY(20px);}
+  to{opacity:1; transform:translateY(0);}
+}
